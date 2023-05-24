@@ -1,12 +1,6 @@
 {
 	"name": "DemoKarate",
-	// "dockerComposeFile": [
-	// 	"docker-compose.yml"
-	// ],
     "image": "karate-devcontainer",
-	// The name of the following service has to match one of the services in docker-compose.yml
-	// "service": "devcontainer",
-	// "workspaceFolder": "/src",
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
@@ -23,7 +17,5 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	  }
-	// "shutdownAction": "stopCompose",
-	// "remoteUser": "node"
 }
 }

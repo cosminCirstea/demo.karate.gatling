@@ -11,6 +11,11 @@ JSON, XML and CSV manipulation, storage, reading can be easily done with Karate.
 
 ### 2. What do you need to use it?
 
+- You have 2 options: to work in a dev container or on localhost.
+    - If you choose to use the dev container, Install `Visual Studio Code` then install the `Dev Containers` Extension. Restart Visual Studio Code and you will have in the bottom left corner a blue button with a logo which if you hover over, a tooltip with the message "Open a Remote Window" is displayed. Click on the button and a menu is displayed in the top centre part of the screen. Select the "Reopen in Container" option and you can start running tests and coding.
+
+    - If you choose to use the framework on your local machine, then follow the below steps:
+    
 - Install following Components: Java OpenJDK and Maven
 - Configure Java (set the `PATH` system variable to the `\bin` directory and a `JAVA_HOME` system variable to the main directory of your Java JDK (not JRE)) - on Windows
 - Configure Maven (set the `PATH` system variable to the `\bin` directory and a `M2_HOME` system variable to the main directory) - on Windows
